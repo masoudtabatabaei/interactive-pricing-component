@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Manrope;
+    background: url("images/bg-pattern.svg") no-repeat;
+    background-size: 100% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.font-w-600 { font-weight: 600 }
+.font-w-800 { font-weight: 800 }
+
+.text-center {
+    text-align: center;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    color: #0c3672;
+}
+
+.description {
+    font-size: 22px;
+    color: #a9a9a9;
+}
