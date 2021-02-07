@@ -7,15 +7,34 @@
     <link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="16*16">
     <!--<link rel="stylesheet" href="https://fonts.google.com/specimen/Manrope:600,800">-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:600,800">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?t=1">
 </head>
 <body>
-    <div class="container">
-        <div class="text-center">
-            <p class="title">Simple, traffic based-pricing</p>
-            <p class="description">Sign-up for 30-day trial, No credit card required.</p>
+<div class="container">
+    <div class="text-center heading">
+        <p class="title">Simple, traffic based-pricing</p>
+        <p class="description">Sign-up for 30-day trial, No credit card required.</p>
+    </div>
+    <div class="card">
+        <div class="part">
+            <div class="flex-vc justify-content-sp-bet mb-20">
+                <div class="font-w-800 gray-8d8f9b uppercase ls-1 font-14"><span id="page-views-count">0</span> PAGEVIEWS</div>
+                <div><span class="mr-5 dark-28315c font-32 font-w-800" id="page-view-price">0.00$</span><span class="gray-8d8f9b va-super">/ month</span></div>
+            </div>
+            <div class="mb-20">
+                <input id="slider" type="range" min="0" max="1000000" step="10000" value="10000">
+            </div>
+        </div>
+        <div class="part flex-vc justify-content-sp-bet">
+            <div class="advantage">
+                <div>Unlimited Websites</div>
+                <div>100% data ownership</div>
+                <div>Email reports</div>
+            </div>
+            <div><a href="#" class="btn btn-cta">Start my trial</a></div>
         </div>
     </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
