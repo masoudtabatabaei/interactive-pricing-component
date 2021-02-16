@@ -155,6 +155,11 @@ a {
     color: #eeeeee;
     font-size: 13px;
     font-weight: 800;
+    transition: all 0.2s;
+}
+
+.btn-cta:hover {
+    opacity: 0.9;
 }
 
 .m-y-switch {
